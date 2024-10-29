@@ -1,0 +1,113 @@
+/* Style général */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #e8efff;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+/* Style de l'en-tête */
+header {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header p {
+    font-size: 1rem;
+    color: #6e6e6e;
+    margin: 12px 0;
+}
+
+.main-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.main-link:hover {
+    background-color: #2980b9;
+}
+
+/* Style des sections */
+main section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f5faff;
+    border-left: 4px solid #3498db;
+    border-radius: 8px;
+}
+
+main h2 {
+    font-size: 1.6rem;
+    color: #3498db;
+    margin-bottom: 8px;
+}
+
+main p {
+    color: #4a4a4a;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Style du pied de page */
+footer {
+    text-align: left;
+    margin-top: 30px;
+}
+
+footer h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #2980b9;
+}
